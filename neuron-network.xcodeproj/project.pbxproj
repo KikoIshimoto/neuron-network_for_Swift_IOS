@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EA5B9DB1DA4A8BE0014F10F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5B9DA1DA4A8BE0014F10F /* AppDelegate.swift */; };
+		1EA5B9DD1DA4A8BE0014F10F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5B9DC1DA4A8BE0014F10F /* ViewController.swift */; };
+		1EA5B9DF1DA4A8BE0014F10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5B9DE1DA4A8BE0014F10F /* Assets.xcassets */; };
+		1EA5B9E21DA4A8BE0014F10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5B9E01DA4A8BE0014F10F /* Main.storyboard */; };
+		1EA5B9ED1DA4A8BE0014F10F /* neuron_networkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5B9EC1DA4A8BE0014F10F /* neuron_networkTests.swift */; };
+		1EA5B9F81DA4A8BE0014F10F /* neuron_networkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5B9F71DA4A8BE0014F10F /* neuron_networkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA5B9E91DA4A8BE0014F10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA5B9CF1DA4A8BE0014F10F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA5B9D61DA4A8BE0014F10F;
+			remoteInfo = "neuron-network";
+		};
+		1EA5B9F41DA4A8BE0014F10F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA5B9CF1DA4A8BE0014F10F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA5B9D61DA4A8BE0014F10F;
+			remoteInfo = "neuron-network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EA5B9D71DA4A8BE0014F10F /* neuron-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "neuron-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA5B9DA1DA4A8BE0014F10F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EA5B9DC1DA4A8BE0014F10F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EA5B9DE1DA4A8BE0014F10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA5B9E11DA4A8BE0014F10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EA5B9E31DA4A8BE0014F10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA5B9E81DA4A8BE0014F10F /* neuron-networkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "neuron-networkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA5B9EC1DA4A8BE0014F10F /* neuron_networkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neuron_networkTests.swift; sourceTree = "<group>"; };
+		1EA5B9EE1DA4A8BE0014F10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA5B9F31DA4A8BE0014F10F /* neuron-networkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "neuron-networkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA5B9F71DA4A8BE0014F10F /* neuron_networkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neuron_networkUITests.swift; sourceTree = "<group>"; };
+		1EA5B9F91DA4A8BE0014F10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA5B9D41DA4A8BE0014F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9E51DA4A8BE0014F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9F01DA4A8BE0014F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA5B9CE1DA4A8BE0014F10F = {
+			isa = PBXGroup;
+			children = (
+				1EA5B9D91DA4A8BE0014F10F /* neuron-network */,
+				1EA5B9EB1DA4A8BE0014F10F /* neuron-networkTests */,
+				1EA5B9F61DA4A8BE0014F10F /* neuron-networkUITests */,
+				1EA5B9D81DA4A8BE0014F10F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA5B9D81DA4A8BE0014F10F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5B9D71DA4A8BE0014F10F /* neuron-network.app */,
+				1EA5B9E81DA4A8BE0014F10F /* neuron-networkTests.xctest */,
+				1EA5B9F31DA4A8BE0014F10F /* neuron-networkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EA5B9D91DA4A8BE0014F10F /* neuron-network */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5B9DA1DA4A8BE0014F10F /* AppDelegate.swift */,
+				1EA5B9DC1DA4A8BE0014F10F /* ViewController.swift */,
+				1EA5B9DE1DA4A8BE0014F10F /* Assets.xcassets */,
+				1EA5B9E01DA4A8BE0014F10F /* Main.storyboard */,
+				1EA5B9E31DA4A8BE0014F10F /* Info.plist */,
+			);
+			path = "neuron-network";
+			sourceTree = "<group>";
+		};
+		1EA5B9EB1DA4A8BE0014F10F /* neuron-networkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5B9EC1DA4A8BE0014F10F /* neuron_networkTests.swift */,
+				1EA5B9EE1DA4A8BE0014F10F /* Info.plist */,
+			);
+			path = "neuron-networkTests";
+			sourceTree = "<group>";
+		};
+		1EA5B9F61DA4A8BE0014F10F /* neuron-networkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5B9F71DA4A8BE0014F10F /* neuron_networkUITests.swift */,
+				1EA5B9F91DA4A8BE0014F10F /* Info.plist */,
+			);
+			path = "neuron-networkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA5B9D61DA4A8BE0014F10F /* neuron-network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA5B9FC1DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-network" */;
+			buildPhases = (
+				1EA5B9D31DA4A8BE0014F10F /* Sources */,
+				1EA5B9D41DA4A8BE0014F10F /* Frameworks */,
+				1EA5B9D51DA4A8BE0014F10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "neuron-network";
+			productName = "neuron-network";
+			productReference = 1EA5B9D71DA4A8BE0014F10F /* neuron-network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EA5B9E71DA4A8BE0014F10F /* neuron-networkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA5B9FF1DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-networkTests" */;
+			buildPhases = (
+				1EA5B9E41DA4A8BE0014F10F /* Sources */,
+				1EA5B9E51DA4A8BE0014F10F /* Frameworks */,
+				1EA5B9E61DA4A8BE0014F10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA5B9EA1DA4A8BE0014F10F /* PBXTargetDependency */,
+			);
+			name = "neuron-networkTests";
+			productName = "neuron-networkTests";
+			productReference = 1EA5B9E81DA4A8BE0014F10F /* neuron-networkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EA5B9F21DA4A8BE0014F10F /* neuron-networkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA5BA021DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-networkUITests" */;
+			buildPhases = (
+				1EA5B9EF1DA4A8BE0014F10F /* Sources */,
+				1EA5B9F01DA4A8BE0014F10F /* Frameworks */,
+				1EA5B9F11DA4A8BE0014F10F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA5B9F51DA4A8BE0014F10F /* PBXTargetDependency */,
+			);
+			name = "neuron-networkUITests";
+			productName = "neuron-networkUITests";
+			productReference = 1EA5B9F31DA4A8BE0014F10F /* neuron-networkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA5B9CF1DA4A8BE0014F10F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IshimotoKiko;
+				TargetAttributes = {
+					1EA5B9D61DA4A8BE0014F10F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1EA5B9E71DA4A8BE0014F10F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1EA5B9D61DA4A8BE0014F10F;
+					};
+					1EA5B9F21DA4A8BE0014F10F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1EA5B9D61DA4A8BE0014F10F;
+					};
+				};
+			};
+			buildConfigurationList = 1EA5B9D21DA4A8BE0014F10F /* Build configuration list for PBXProject "neuron-network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EA5B9CE1DA4A8BE0014F10F;
+			productRefGroup = 1EA5B9D81DA4A8BE0014F10F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA5B9D61DA4A8BE0014F10F /* neuron-network */,
+				1EA5B9E71DA4A8BE0014F10F /* neuron-networkTests */,
+				1EA5B9F21DA4A8BE0014F10F /* neuron-networkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA5B9D51DA4A8BE0014F10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5B9DF1DA4A8BE0014F10F /* Assets.xcassets in Resources */,
+				1EA5B9E21DA4A8BE0014F10F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9E61DA4A8BE0014F10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9F11DA4A8BE0014F10F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA5B9D31DA4A8BE0014F10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5B9DD1DA4A8BE0014F10F /* ViewController.swift in Sources */,
+				1EA5B9DB1DA4A8BE0014F10F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9E41DA4A8BE0014F10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5B9ED1DA4A8BE0014F10F /* neuron_networkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA5B9EF1DA4A8BE0014F10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA5B9F81DA4A8BE0014F10F /* neuron_networkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA5B9EA1DA4A8BE0014F10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA5B9D61DA4A8BE0014F10F /* neuron-network */;
+			targetProxy = 1EA5B9E91DA4A8BE0014F10F /* PBXContainerItemProxy */;
+		};
+		1EA5B9F51DA4A8BE0014F10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA5B9D61DA4A8BE0014F10F /* neuron-network */;
+			targetProxy = 1EA5B9F41DA4A8BE0014F10F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EA5B9E01DA4A8BE0014F10F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA5B9E11DA4A8BE0014F10F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EA5B9FA1DA4A8BE0014F10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EA5B9FB1DA4A8BE0014F10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1EA5B9FD1DA4A8BE0014F10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EA5B9FE1DA4A8BE0014F10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EA5BA001DA4A8BE0014F10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neuron-network.app/Contents/MacOS/neuron-network";
+			};
+			name = Debug;
+		};
+		1EA5BA011DA4A8BE0014F10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neuron-network.app/Contents/MacOS/neuron-network";
+			};
+			name = Release;
+		};
+		1EA5BA031DA4A8BE0014F10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-networkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-networkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "neuron-network";
+			};
+			name = Debug;
+		};
+		1EA5BA041DA4A8BE0014F10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "neuron-networkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IshimotoKiko.neuron-networkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "neuron-network";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA5B9D21DA4A8BE0014F10F /* Build configuration list for PBXProject "neuron-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA5B9FA1DA4A8BE0014F10F /* Debug */,
+				1EA5B9FB1DA4A8BE0014F10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA5B9FC1DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA5B9FD1DA4A8BE0014F10F /* Debug */,
+				1EA5B9FE1DA4A8BE0014F10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EA5B9FF1DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-networkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA5BA001DA4A8BE0014F10F /* Debug */,
+				1EA5BA011DA4A8BE0014F10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EA5BA021DA4A8BE0014F10F /* Build configuration list for PBXNativeTarget "neuron-networkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA5BA031DA4A8BE0014F10F /* Debug */,
+				1EA5BA041DA4A8BE0014F10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EA5B9CF1DA4A8BE0014F10F /* Project object */;
+}
