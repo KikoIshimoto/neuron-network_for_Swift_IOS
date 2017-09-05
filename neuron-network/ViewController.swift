@@ -21,6 +21,7 @@ class ViewController: NSViewController {
         //print(x2)
         x1.pro(x2)
         print(x1)
+        
         neu.set(2)
         let ne = neuronNetwork(num: [2,3,1])
         var count = 0
